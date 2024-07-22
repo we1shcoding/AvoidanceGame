@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 클릭 상태 -->
+    <item android:state_pressed="true">
+        <animator
+            android:resource="@animator/button_scale"/>
+    </item>
+
+    <!-- 포커스 상태 -->
+    <item android:state_focused="true">
+        <animator
+            android:resource="@animator/button_alpha"/>
+    </item>
+
+    <!-- 기본 상태 -->
+    <item>
+        <animator
+            android:resource="@animator/button_alpha"/>
+    </item>
+</selector>

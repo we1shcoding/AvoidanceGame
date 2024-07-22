@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mazeview"> <!-- 어두운 배경 이미지 -->
+
+    <!-- 몬스터들을 담을 뷰그룹 -->
+    <RelativeLayout
+        android:id="@+id/monsterContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/monsterImageView1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/monster"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/monsterImageView2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/monster2"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/monsterImageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/monster3"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/monsterImageView4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/monster41"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/monsterImageView5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/monster42"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/monsterImageView6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/monster51"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/monsterImageView7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/monster52"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/monsterImageView8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/monster61"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/monsterImageView9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/monster62"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/monsterImageView10"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/monster71"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/monsterImageView11"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/monster72"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/monsterTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="당신도 아오오니가 되었습니다..."
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:background="@color/dark_background" />
+
+</RelativeLayout>
